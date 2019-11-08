@@ -1,0 +1,19 @@
+<section>
+  <div class="full-container">
+    <h2>Кошик</h2>
+    <div class="general-price">Загальна сума: <span>{{count}}</span> </div>
+    <div class="catalog-card" *ngFor="let prod of basketArticle; let i = index">
+      <ul>
+        <li>
+          <div class="id">{{prod.id}}</div>
+          <div class="name">{{prod.name}}</div>
+          <div class="lable">{{prod.lable}}</div>
+          <div class="price">{{prod.price}}</div>
+          <button class="btn btn-danger" type="button" (click)="deleteArticle(i)">Видалити</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+</section>

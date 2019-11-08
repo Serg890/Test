@@ -1,0 +1,16 @@
+<section>
+  <div class="full-container">
+    <h2>Товар</h2>
+    <div class="catalog-card" *ngFor="let prod of katalogProduct let i = index">
+      <ul>
+        <li>
+          <div class="id">{{prod.id}}</div>
+          <div class="name">{{prod.name}}</div>
+          <div class="lable">{{prod.lable}}</div>
+          <div class="price">{{prod.price}}</div>
+          <button class="btn btn-success" type="button" (click)="addBasket(i)">Купити</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

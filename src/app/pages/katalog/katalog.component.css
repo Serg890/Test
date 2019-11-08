@@ -1,0 +1,31 @@
+.full-container {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  margin: 20px 85px;
+}
+
+.catalog-card {
+  text-align: center;
+  margin: 20px 30px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 13px;
+  min-height: 175px;
+}
+
+li:hover {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+}
+.btn-danger{
+  margin-top: 10px;
+}
+
